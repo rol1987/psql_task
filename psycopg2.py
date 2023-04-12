@@ -1,5 +1,5 @@
 import psycopg2
-conn = psycopg2.connect(database = 'netology_db', user = 'postgres', password = '83FrkWrt')
+conn = psycopg2.connect(database = 'netology_db', user = 'postgres', password = '')
 
 with conn.cursor() as cur:
     #Функция, создающая структуру БД (таблицы).

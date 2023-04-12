@@ -74,7 +74,7 @@ def find_client(cur, name, phone_number, email):
 
 
 if __name__ == "__main__":
-    conn = psycopg2.connect(database = 'netology_db', user = 'postgres', password = '83FrkWrt')
+    conn = psycopg2.connect(database = 'netology_db', user = 'postgres', password = '')
     with conn.cursor() as cur:
         table = new_table(cur)
         cl = add_client(cur, 'Oleg', 'Olegov', 'xxx@yandex.ru', '+7929123123445', '+79976543210', '', '')
